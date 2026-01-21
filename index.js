@@ -271,7 +271,7 @@ app.get("/subscribers", async (req, res) => {
 ===================== */
 // Runs every day at 8:00 AM server time
 //0 8 * * *
-cron.schedule("43 8 * * *", async () => {
+cron.schedule("* * * * *", async () => {
   try {
     const collection = await getEmailCollection();
     const subscribers = await collection.find().toArray();
