@@ -1,0 +1,22 @@
+{
+  "name": "new-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "experss": "^0.0.1-security",
+    "express": "^5.2.1",
+    "mongodb": "^7.0.0",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.12"
+  }
+}
